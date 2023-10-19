@@ -3,7 +3,7 @@
 #include "assert.h"
 #include "string.h"
 
-#include "shoco_header_only.h"
+#include "shoco_header_only.hpp"
 
 static const char LARGE_STR[] = "This is a large string that won't possibly fit into a small buffer";
 static const char NON_ASCII_STR[] = "Übergrößenträger";
